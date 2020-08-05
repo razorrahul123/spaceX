@@ -130,6 +130,7 @@
 .item-wrapper-main {
   margin: 20px;
   padding: 20px;
+  content-visibility: auto;
   background-color: white;
 }
 
