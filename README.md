@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The project is hosted on Github pages and url for the same : [https://razorrahul123.github.io/spaceX/](https://razorrahul123.github.io/spaceX/)
 OR
 Click here [spaceX](https://razorrahul123.github.io/spaceX/) to open the same
+Please open the project in Mozilla Firefox for best experience. There is some issue with the spaceX api which is causing problem with mission patch image.
+For more details check: [issue](https://github.com/r-spacex/SpaceX-API/issues/421)
 
 ## Available Scripts
 
