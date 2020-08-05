@@ -53,7 +53,11 @@ function App() {
   const handleYearChange = (value) => {
     switch (value) {
       case value: {
-        setYear(value);
+        if (year === value) {
+          setYear(null);
+        } else {
+          setYear(value);
+        }
         break;
       }
       default: {
@@ -66,7 +70,11 @@ function App() {
   const handleLaunchChange = (name, value) => {
     switch (name) {
       case name: {
-        setLaunch(value);
+        if (launch === value) {
+          setLaunch(null);
+        } else {
+          setLaunch(value);
+        }
         break;
       }
       default: {
@@ -79,7 +87,12 @@ function App() {
   const handleLandingChange = (name, value) => {
     switch (name) {
       case name: {
-        setLanding(value);
+        if (landing === value) {
+          setLanding(null);
+        } else {
+          setLanding(value);
+        }
+
         break;
       }
       default: {

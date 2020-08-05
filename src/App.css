@@ -132,6 +132,7 @@
   margin: 20px;
   padding: 20px;
   content-visibility: auto;
+  contain-intrinsic-size: 100px 100px;
   background-color: white;
 }
 
