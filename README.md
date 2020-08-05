@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project URL
+
+The project is hosted on Github pages and url for the same : [https://razorrahul123.github.io/spaceX/](https://razorrahul123.github.io/spaceX/)
+OR
+Click here [spaceX](https://razorrahul123.github.io/spaceX/) to open the same
+
 ## Available Scripts
 
 In the project directory, you can run:
