@@ -22,6 +22,30 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn install`
+
+This is used to install all the required dependencies
+
+## SpaceX App
+
+The app is build using React JS. Mobile first design appraoch is used for building the app.
+
+The app layout in mobile:
+
+![LighthouseScore](Images/Mobile.png)
+
+App layout in Tablet:
+
+![LighthouseScore](Images/Tablet.png)
+
+The desktop layout:
+
+![LighthouseScore](Images/Desktop.png)
+
+IF the width is greater than 1440px then the content will be centered aligned with max width of 1440px
+
 ## LighthouseScore
+
+I managed to get a score of 92 in lighthouse for all the attributes
 
 ![LighthouseScore](Images/Lighthouse.png)
