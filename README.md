@@ -57,6 +57,6 @@ IF the width is greater than 1440px then the content will be centered aligned wi
 
 ## LighthouseScore
 
-I managed to get a score of 92 in lighthouse for all the attributes
+I managed to get a score of 100 in lighthouse.
 
 ![LighthouseScore](Images/Lighthouse.png)

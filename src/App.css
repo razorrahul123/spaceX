@@ -39,6 +39,7 @@
   width: 100%;
   border-top: 1px solid hsla(0, 0%, 100%, 0.35);
   background-color: #edf5d9;
+  z-index: 10;
 }
 
 .made-by-container > div {
