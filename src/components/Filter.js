@@ -37,7 +37,7 @@ const Filter = ({
   launch,
 }) => {
   return (
-    <div className="filter-wrapper">
+    <section className="filter-wrapper">
       <div className="year-container">
         <div className="filter-header">Filters</div>
         <div className="launch-year-heading-container">Launch year</div>
@@ -87,7 +87,7 @@ const Filter = ({
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

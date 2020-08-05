@@ -93,12 +93,12 @@ function App() {
     <div className="App">
       <div className="container-main">
         <div className="wrapper-main">
-          <div className="made-by-container">
+          <footer className="made-by-container">
             <div>Developed By: Sushant Kumar Singh</div>
-          </div>
-          <div className="header-container">
+          </footer>
+          <header className="header-container">
             <div> SpaceX Launch Programs</div>
-          </div>
+          </header>
           <Filter
             handleYearChange={handleYearChange}
             handleLaunchChange={handleLaunchChange}
@@ -107,7 +107,7 @@ function App() {
             landing={landing}
             launch={launch}
           />
-          <div className="data-item-container">
+          <section className="data-item-container">
             {loading ? (
               <div className="loader-container">
                 <img alt="loader" src={loader} />
@@ -154,7 +154,7 @@ function App() {
                 )}
               </div>
             )}
-          </div>
+          </section>
         </div>
       </div>
     </div>
