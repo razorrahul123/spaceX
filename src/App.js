@@ -10,8 +10,9 @@ function App() {
   const [launch, setLaunch] = useState(null);
 
   const [landing, setLanding] = useState(null);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     let params = { limit: 100 };
@@ -47,6 +48,8 @@ function App() {
       })
       .catch((e) => {
         setData(null);
+        setError(true);
+        setLoading(false);
       });
   }, [year, launch, landing]);
 
@@ -124,6 +127,12 @@ function App() {
             {loading ? (
               <div className="loader-container">
                 <img alt="loader" src={loader} />
+              </div>
+            ) : error ? (
+              <div className="no-results-container">
+                <div className="no-results-wrapper">
+                  Oops...Something Went Wrong!
+                </div>
               </div>
             ) : (
               <div className="list-main-wrapper">
