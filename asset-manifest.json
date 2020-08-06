@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spaceX/static/css/main.faa47cb2.chunk.css",
+    "main.css": "/spaceX/static/css/main.370be25b.chunk.css",
     "main.js": "/spaceX/static/js/main.ded154e7.chunk.js",
     "main.js.map": "/spaceX/static/js/main.ded154e7.chunk.js.map",
     "runtime-main.js": "/spaceX/static/js/runtime-main.46af16b2.js",
@@ -8,16 +8,16 @@
     "static/js/2.902fa1d0.chunk.js": "/spaceX/static/js/2.902fa1d0.chunk.js",
     "static/js/2.902fa1d0.chunk.js.map": "/spaceX/static/js/2.902fa1d0.chunk.js.map",
     "index.html": "/spaceX/index.html",
-    "precache-manifest.50e20145f4046e842f004f5d461163e4.js": "/spaceX/precache-manifest.50e20145f4046e842f004f5d461163e4.js",
+    "precache-manifest.771e99318678b1ca2810b1c7cc3ee446.js": "/spaceX/precache-manifest.771e99318678b1ca2810b1c7cc3ee446.js",
     "service-worker.js": "/spaceX/service-worker.js",
-    "static/css/main.faa47cb2.chunk.css.map": "/spaceX/static/css/main.faa47cb2.chunk.css.map",
+    "static/css/main.370be25b.chunk.css.map": "/spaceX/static/css/main.370be25b.chunk.css.map",
     "static/js/2.902fa1d0.chunk.js.LICENSE.txt": "/spaceX/static/js/2.902fa1d0.chunk.js.LICENSE.txt",
     "static/media/Spinner.svg": "/spaceX/static/media/Spinner.1e156b43.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.46af16b2.js",
     "static/js/2.902fa1d0.chunk.js",
-    "static/css/main.faa47cb2.chunk.css",
+    "static/css/main.370be25b.chunk.css",
     "static/js/main.ded154e7.chunk.js"
   ]
 }
